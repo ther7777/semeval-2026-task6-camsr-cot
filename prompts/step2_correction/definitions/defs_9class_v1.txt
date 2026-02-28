@@ -1,0 +1,58 @@
+### 9-Class Evasion Type Definitions ###
+
+Output EXACTLY one label from:
+Explicit | Implicit | Partial/half-answer | General | Deflection | Dodging | Declining to answer | Claims ignorance | Clarification
+
+ Operational decision tree (MUST follow):
+
+Step 1) Identify the Sub-question's core target and required information.
+- State in one short sentence: "What key info is the Sub-question asking for?"
+- If multiple components are required (A and B / multiple items), list the components.
+
+Step 2) Topic alignment check.
+- Does the answer address the Sub-question's core target (same entity/aspect) at all?
+- If NO -> output Dodging (and stop).
+
+Step 3) Check whether the answer provides ANY key information.
+- If the answer provides NONE of the required key information -> go to Step 5 (Deflection vs Dodging).
+- If the answer provides AT LEAST SOME on-target information relevant to the asked aspect -> go to Step 4.
+
+Step 4) Choose among Explicit / Implicit / Partial/half-answer / General.
+
+4a) Partial/half-answer:
+- If multiple components are required AND the answer clearly covers at least one component but misses at least one other -> Partial/half-answer.
+
+4b) Explicit:
+- Output Explicit ONLY if the requested key information is explicitly stated in the expected form.
+- For Yes/No questions: Must contain "Yes", "No", "Certainly", "Absolutely", "I don't think so" OR a direct statement of the answer (e.g., "He has not changed").
+  * EXCEPTION: If "Yes/No" is followed by a condition that effectively revokes the answer ("Yes, if X happens..."), treat as Partial/General.
+  * EXCEPTION: If "Yes/No" responds to a rephrased question ("Let me ask: is X true? Yes..."), treat based on relevance to the ORIGINAL Sub-question.
+- For WH-questions: Must provide the specific name, date, number, or entity asked for.
+
+4c) Implicit (STRICT):
+- Output Implicit if the answer does not use the explicit form but logically implies a specific answer to the Sub-question.
+- You must be able to restate the implied answer in ONE short sentence with high confidence.
+- Example: Q="Has he changed?" A="He is the same person." -> Implies "No". (This is Implicit, not Explicit).
+- If the implication depends on complex interpretation or is weak -> do NOT choose Implicit.
+
+4d) General (DEFAULT when on-topic but vague):
+- Output General if the answer stays on the asked aspect (same entity/aspect),
+  provides some on-target information, but is too vague/high-level and lacks the requested specificity.
+- There is NO clear pivot away from the asked aspect.
+
+Step 5) Deflection vs Dodging (when key info is missing- This step applies to cases not covered by Non-Reply check):
+- Output Deflection if the answer engages the core target but then pivots to a different point/aspect/frame/object
+  instead of answering what is asked (no key information provided).
+  Pivot signals may include: "but", "however", "what matters is", "the real issue is", "let me say", or a clear content shift.
+  Necessary condition: you can point out what it pivoted to. If you cannot identify a clear pivot -> prefer Dodging (if unaligned) or General (if aligned).
+- Otherwise output Dodging.
+
+Tie-breakers (reduce Deflection/Implicit overuse):
+- If unsure between Deflection vs General -> choose General unless the pivot is unmistakable.
+- If unsure between Implicit vs General -> choose General unless you can restate a concrete implied answer.
+
+Non-Reply Labels (Check these first if explicit cues exist):
+- Declining to answer: Explicit refusal/deferral.
+- Claims ignorance: Explicit lack of knowledge.
+- Clarification: Explicit request to clarify/repeat.
+

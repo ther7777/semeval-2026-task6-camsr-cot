@@ -1,0 +1,47 @@
+pipeline:
+  name: "camsr_cot_dev"
+  description: "CAMSR-CoT pipeline"
+
+defaults:
+  base_url: "your-api-base-url"
+  model: "your-model-name"
+  concurrency: 8
+  max_retries: 5
+  temperature: 0.0
+  max_tokens: 1800
+  timeout_s: 90.0
+
+gate:
+  prompt_path: "prompts/step1_gate/gate_confidence_routing.txt"
+  non_reply_labels:
+    - "Declining to answer"
+    - "Claims ignorance"
+    - "Clarification"
+
+step2_correction:
+  templates_dir: "prompts/step2_correction/templates"
+  definitions_path: "prompts/step2_correction/definitions/defs_9class_v1.txt"
+  fewshots_dir: "prompts/step2_correction/fewshots"
+  include_prior_analysis: true
+  num_anchors: 2
+  num_boundaries: 3
+
+step3_spectrum:
+  templates_dir: "prompts/step3_spectrum/templates"
+  definitions_path: "prompts/step3_spectrum/definitions/defs_6class_spectrum_v2.txt"
+  fewshots_dir: "prompts/step3_spectrum/fewshots"
+  include_prior_analysis: false
+  num_anchors: 6
+  num_boundaries: 10
+
+mapping:
+  Explicit: "Clear Reply"
+  Implicit: "Ambivalent"
+  Partial/half-answer: "Ambivalent"
+  General: "Ambivalent"
+  Deflection: "Ambivalent"
+  Dodging: "Ambivalent"
+  Declining to answer: "Clear Non-Reply"
+  Claims ignorance: "Clear Non-Reply"
+  Clarification: "Clear Non-Reply"
+

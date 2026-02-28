@@ -1,0 +1,175 @@
+You are given an interview segment (interviewer question(s) + interviewee answer) and a specific sub-question extracted from it.
+
+Task:
+Decide whether the answer is a Non-Reply of one of these types.
+If not, output OTHER.
+
+IMPORTANT:
+- Judge relevance ONLY against the Sub-question (ignore other questions in the interview).
+- Think step by step and write your reasoning inside <analysis>...</analysis>.
+- Then output a confidence level inside <confidence>...</confidence>.
+- Finally output the final label inside <label>...</label>.
+- The <label> must contain ONLY the label text (no punctuation, no extra words).
+- Output EXACTLY one label from:
+Clarification | Claims ignorance | Declining to answer | OTHER
+
+Hard constraints (must follow):
+A) Clarification:
+- You may output Clarification ONLY if the answer explicitly asks for clarification / says it does not understand the sub-question / asks a counter-question about a specific component of the question.
+- Typical cues include: "What do you mean?", "Which one?", "Clarify", "I don't understand", "You mean X?", "On X?", "Are you asking about X?"
+
+B) Claims ignorance:
+- You may output Claims ignorance ONLY if the answer explicitly states lack of knowledge / lack of information / inability to recall / not having reviewed.
+- Typical cues include: "I don't know", "I'm not sure", "I can't recall", "I haven't seen/reviewed", "I don't have the details", "I need to check".
+
+C) Declining to answer:
+- You may output Declining to answer ONLY if the answer explicitly refuses OR explicitly defers answering now.
+- Typical cues include: "No comment", "I can't comment", "I won't discuss that", "Not at liberty", "Too early to say", "I'll let X address that", "I'm not going to tell you", "wait for the report".
+
+Key-information override (CRITICAL):
+- If the answer provides ANY of the key information required by the Sub-question (even partially), you MUST output OTHER.
+  (In that case it is not a Non-Reply label.)
+
+Tie-breakers (strict):
+1) If Clarification cue is present and key info is missing -> Clarification.
+2) Else if refusal/deferral cue is present and key info is missing -> Declining to answer.
+3) Else if lack-of-knowledge cue is present and key info is missing -> Claims ignorance.
+4) Else -> OTHER.
+
+Confidence Level Guide:
+<confidence>High</confidence>: 
+- The cue is explicit and unambiguous (e.g., "No comment", "I don't know"). 
+- The answer is SHORT and consists MOSTLY of the refusal/ignorance/clarification.
+- You are 100% sure it fits the definition and contains NO key info.
+- There is NO possibility of it being Implicit or Partial answer.
+
+<confidence>Medium</confidence>: 
+- It fits the definition, but the phrasing is less direct or mixed with other content.
+- The refusal/ignorance is embedded in a longer explanation, or followed by "but...", "however...", or acts as a pivot.
+- It might be a border-line case (e.g., "It's hard to say right now").
+
+<confidence>Low</confidence>: 
+- It has some features of a Non-Reply, but you are hesitant.
+- It might arguably be providing some information (Partial/Implicit).
+- Use this if you want to flag it as a potential Non-Reply but are not sure.
+
+### Examples ###
+
+Example 1 (Short explicit refusal):
+Interview Question: Q. You talked about middle class tax cuts on the campaign trail. How will you get Democrats to support that policy?
+Interview Answer: You have to ask them.
+Sub-question: How will you get Democrats to support that policy?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks HOW the speaker will get Democrats to support a policy.
+Step 2 - Check key-information override: The answer "You have to ask them" provides NO information about how to get Democratic support. Key info is missing.
+Step 3 - Check Hard constraints: The phrase "You have to ask them" redirects the question to others, which is a deferral cue (C).
+Step 4 - Apply Tie-breakers: Refusal/deferral cue is present + key info is missing → Declining to answer.
+</analysis>
+<confidence>High</confidence>
+<label>Declining to answer</label>
+
+Example 2 (Refusal embedded in longer answer):
+Interview Question: Q. Mr. President, we know that you talked about Iran and North Korea. Did you ask Russia to take specific steps, for example with Iran, to agree to U.N. sanctions?
+Interview Answer: We strategized on both issues... yes, we talked about the U.N. Security Council resolution. And, no, I'm not going to tell you the particulars about the conversation. I will tell you, however, that there is common agreement that we need to get something done at the U.N...
+Sub-question: Did you ask Russia to take specific steps, for example with Iran, to agree to U.N. sanctions?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks whether SPECIFIC STEPS were requested of Russia regarding Iran/U.N. sanctions.
+Step 2 - Check key-information override: The answer mentions "we talked about the U.N. Security Council resolution" and "common agreement" but does NOT reveal what specific steps were asked. Key info is missing.
+Step 3 - Check Hard constraints: The phrase "I'm not going to tell you the particulars" is an explicit refusal cue (C).
+Step 4 - Apply Tie-breakers: Refusal cue is present + key info is missing → Declining to answer.
+Note: The answer is long and provides context/pivot ("I will tell you, however..."). Although it is Declining, the extra context makes it safer to flag as Medium confidence so downstream models can double-check for Deflection.
+</analysis>
+<confidence>Medium</confidence>
+<label>Declining to answer</label>
+
+Example 3 (Deferral to future report):
+Interview Question: Q. Are you prepared to pass on the fate of the war to the next President?
+Interview Answer: David Petraeus, the general on the ground, will be bringing his recommendations back to the Congress on or about September the 15th. And I think it's going to be very important for all of us to wait for him to report... I don't want to prejudge what David is going to say.
+Sub-question: Are you prepared to pass on the fate of the war to the next President?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks whether the speaker is PREPARED to pass the war's fate to the next President (yes/no + reasoning).
+Step 2 - Check key-information override: The answer discusses waiting for Petraeus's report but does NOT state whether the speaker is prepared to pass on the war. Key info is missing.
+Step 3 - Check Hard constraints: The phrases "wait for him to report" and "I don't want to prejudge" are deferral cues (C).
+Step 4 - Apply Tie-breakers: Deferral cue is present + key info is missing → Declining to answer.
+Note: Discussing related context (Petraeus report) makes this a contextual refusal.
+</analysis>
+<confidence>Medium</confidence>
+<label>Declining to answer</label>
+
+Example 4 (Explicit lack of knowledge):
+Interview Question: Q. ----but shouldn't the Iranian regime know that there are consequences?
+Interview Answer: I answered the question, Chuck, which is that we don't yet know how this is going to play out. Okay? Jake Tapper [ABC News].
+Sub-question: Shouldn't the Iranian regime know that there are consequences?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks whether Iran SHOULD know about consequences (opinion/stance).
+Step 2 - Check key-information override: The answer does NOT provide a stance on whether Iran should know. Key info is missing.
+Step 3 - Check Hard constraints: The phrase "we don't yet know how this is going to play out" is a lack-of-knowledge cue (B).
+Step 4 - Apply Tie-breakers: Lack-of-knowledge cue is present + key info is missing → Claims ignorance.
+</analysis>
+<confidence>High</confidence>
+<label>Claims ignorance</label>
+
+Example 5 (Deferral to future announcement - mixed cues):
+Interview Question: Q. So you could be going to Charlotte?
+Interview Answer: Anybody have any ideas? We'll be announcing it very soon.
+Sub-question: Could you be going to Charlotte?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks whether the speaker COULD be going to Charlotte (yes/no/maybe).
+Step 2 - Check key-information override: The answer does NOT confirm or deny going to Charlotte. Key info is missing.
+Step 3 - Check Hard constraints: "Anybody have any ideas?" suggests lack of knowledge (B). "We'll be announcing it very soon" is a deferral cue (C).
+Step 4 - Apply Tie-breakers: Both B and C cues present. Per tie-breaker order, check refusal/deferral first → but the primary cue here is lack of knowledge/uncertainty implied by "Anybody have any ideas?".
+</analysis>
+<confidence>Medium</confidence>
+<label>Claims ignorance</label>
+
+Example 6 (Request to repeat - didn't hear):
+Interview Question: Q. So you're inclined to pull the troops out?
+Interview Answer: Say it?
+Sub-question: Inclination towards pulling the troops out.
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks about the speaker's inclination on troops.
+Step 2 - Check key-information override: The answer provides NO information about troops. Key info is missing.
+Step 3 - Check Hard constraints: "Say it?" is a request to repeat the question, a clarification cue (A).
+Step 4 - Apply Tie-breakers: Clarification cue is present + key info is missing → Clarification.
+</analysis>
+<confidence>High</confidence>
+<label>Clarification</label>
+
+Example 7 (Couldn't hear):
+Interview Question: Q. With the NHS? With the NHS? Should the NHS be on the table, sir?
+Interview Answer: I can't hear him. What?
+Sub-question: Should the NHS be on the table?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks whether the NHS should be on the table (yes/no + reasoning).
+Step 2 - Check key-information override: The answer provides NO information about the NHS. Key info is missing.
+Step 3 - Check Hard constraints: "I can't hear him. What?" explicitly indicates the speaker didn't hear, a clarification cue (A).
+Step 4 - Apply Tie-breakers: Clarification cue is present + key info is missing → Clarification.
+</analysis>
+<confidence>High</confidence>
+<label>Clarification</label>
+
+Example 8 (Short counter-question/topic clarification):
+Interview Question: Q. In your previous conversations with Prime Minister Maliki, have you been confident that he shares your view on Iraq?
+Interview Answer: On Iran?
+Sub-question: Did you feel confident that he shares your view on Iraq?
+<analysis>
+Step 1 - Identify sub-question requirement: The sub-question asks about confidence regarding Maliki's view on Iraq.
+Step 2 - Check key-information override: The answer provides NO information about Iraq or the speaker's confidence. Key info is missing.
+Step 3 - Check Hard constraints: "On Iran?" is a counter-question used to clarify the subject of the sub-question, which is a clarification cue (A).
+Step 4 - Apply Tie-breakers: Clarification cue is present + key info is missing -> Clarification.
+</analysis>
+<confidence>High</confidence>
+<label>Clarification</label>
+
+### Part of the interview ###
+{interview_question}
+
+{interview_answer}
+
+### Sub-question ###
+{sub_question}
+
+Output format (must follow exactly):
+<analysis>...</analysis>
+<confidence>High/Medium/Low</confidence>
+<label>LABEL</label>

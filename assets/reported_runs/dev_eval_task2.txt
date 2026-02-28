@@ -1,0 +1,10 @@
+macro_f1	0.617374
+Explicit	support=93	tp=61	fp=13	fn=32	p=0.824324	r=0.655914	f1=0.730539
+Implicit	support=71	tp=43	fp=35	fn=28	p=0.551282	r=0.605634	f1=0.577181
+Dodging	support=67	tp=12	fp=4	fn=55	p=0.750000	r=0.179104	f1=0.289157
+General	support=81	tp=40	fp=32	fn=41	p=0.555556	r=0.493827	f1=0.522876
+Deflection	support=30	tp=15	fp=23	fn=15	p=0.394737	r=0.500000	f1=0.441176
+Partial/half-answer	support=6	tp=2	fp=5	fn=4	p=0.285714	r=0.333333	f1=0.307692
+Declining to answer	support=13	tp=10	fp=0	fn=3	p=1.000000	r=0.769231	f1=0.869565
+Claims ignorance	support=13	tp=9	fp=0	fn=4	p=1.000000	r=0.692308	f1=0.818182
+Clarification	support=4	tp=4	fp=0	fn=0	p=1.000000	r=1.000000	f1=1.000000

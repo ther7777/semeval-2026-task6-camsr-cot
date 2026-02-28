@@ -1,0 +1,8 @@
+IMPORTANT CONTEXT:
+A preliminary analysis flagged this answer as a POTENTIAL "{gate_label}" (Confidence: {gate_confidence}).
+However, this classification is uncertain. Your job is to VERIFY whether it truly is "{gate_label}" or a different category.
+
+Common mistakes to avoid:
+- Do NOT assume the preliminary label is correct.
+- Carefully distinguish between explicit Non-Reply and mere avoidance/vagueness.
+- If the answer provides ANY substantive information related to the sub-question, it is likely NOT a Non-Reply.

@@ -1,0 +1,35 @@
+You are given an interview segment (interviewer question(s) + interviewee answer) and a specific sub-question extracted from it.
+
+Task:
+Classify the answer into one of 9 evasion types.
+
+{prior_analysis_block}
+
+{definitions_block}
+
+{confusion_guidelines_block}
+
+{fewshots_block}
+
+### Part of the interview ###
+{interview_question}
+
+{interview_answer}
+
+### Sub-question ###
+{sub_question}
+
+Output format (must follow exactly):
+<analysis>
+Step 1 - Identify what the sub-question is asking for (key information required).
+Step 2 - Check if the answer provides that key information (fully, partially, or not at all).
+Step 3 - If key info is provided: determine Explicit vs Implicit vs Partial.
+Step 4 - If key info is missing: determine which evasion type best fits.
+</analysis>
+<confidence>High/Medium/Low</confidence>
+<label>LABEL</label>
+
+Confidence Level Guide:
+- **High**: The label clearly fits; no ambiguity.
+- **Medium**: The label is reasonable, but there's some overlap with another category (e.g., General vs Deflection, Implicit vs Partial).
+- **Low**: Uncertain; could arguably be multiple labels.

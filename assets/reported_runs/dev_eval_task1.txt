@@ -1,0 +1,4 @@
+macro_f1	0.811759
+Ambivalent	support=206	tp=182	fp=29	fn=24	p=0.862559	r=0.883495	f1=0.872902
+Clear Non-Reply	support=23	tp=20	fp=3	fn=3	p=0.869565	r=0.869565	f1=0.869565
+Clear Reply	support=79	tp=53	fp=21	fn=26	p=0.716216	r=0.670886	f1=0.692810

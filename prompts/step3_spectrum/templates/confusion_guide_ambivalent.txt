@@ -1,0 +1,26 @@
+### Confusion Guidelines: Adjacent Spectrum Distinctions (v2) ###
+
+0) 只看 Sub-question
+- 只根据 Sub-question 的核心对象/限定词判断；忽略 interview 里的其它问句点。
+
+1) Implicit vs. General（“逻辑是否解决核心问题？”）
+- Implicit：回答给了具体事实/状态/数字/明确态度，使得核心问题可以被逻辑推导出答案。
+- General：回答只给原则/流程/条件句/进度更新（we're assessing / later today / if needed），没有逻辑闭环到核心答案。
+
+2) Partial vs. General（“有没有明确答到一个组件？”）
+- 只要 Sub-question 是多要素且回答明确命中了其中 1 个要素：优先 Partial/half-answer。
+- General 更像“同议题但不给任何组件级信息”。
+
+3) General vs. Deflection（“抽象稀释 vs 具体替换”）
+- General：把问题稀释到抽象层面（原则/流程/条件/愿景），仍在同一 question-point 附近。
+- Deflection：把焦点替换到**另一个具体点**（另一个争点/对象/问题点），实质在回答别的问句点。
+- 提醒：仅仅“很长/很会说”不是 Deflection；没有明确替换具体点就不要用 Deflection。
+
+4) Deflection vs. Dodging（“有 pivot 还是从头错位”）
+- Deflection：通常会短暂触及原问题或同主题，然后转去另一个具体点。
+- Dodging：从第一句起就与核心对象/前提不匹配（实体/事件根本错位）。
+
+5) The “Long Answer” Trap
+- 不要因为回答很长就判 General/Deflection。
+- 先扫全文：只要出现明确命中（Explicit）或可推导命中（Implicit）或命中单一组件（Partial），就不要退回 General/Deflection。
+

@@ -1,0 +1,22 @@
+### Confusion Guidelines: Claims ignorance ###
+
+"Claims ignorance" requires an EXPLICIT statement of not knowing. Watch out for these common confusions:
+
+**Claims ignorance vs General**:
+- Claims ignorance: "I don't know" / "I'm not sure" / "I haven't reviewed that" (EXPLICIT lack of knowledge)
+- General: "It's hard to say" / "There are many factors" (Vague but not claiming ignorance)
+
+**Claims ignorance vs Deflection**:
+- Claims ignorance: "I don't have the details on that" (Admitting lack of info)
+- Deflection: "That's really a question for the experts" (Redirecting without admitting ignorance)
+
+**Claims ignorance vs Declining**:
+- Claims ignorance: "I don't know what the outcome will be" (Genuinely uncertain)
+- Declining: "I'm not going to speculate" (Choosing not to answer, even if they might know)
+
+**Long-form Ignorance (Important!)**:
+Sometimes a speaker explains WHY they lack knowledge (e.g., "the report just came out", "I haven't had a chance to review it") and then discusses their general attitude or principles. If the speaker still provides NO concrete answer to the specific sub-question, it remains **Claims ignorance**.
+- Example: Q: "Will you close Guantanamo quickly?" A: "The ruling just came out, I haven't had a chance to fully review it... We'll take it seriously... I won't jeopardize safety..."
+- This is Claims ignorance because the speaker explicitly states they haven't reviewed the ruling (the key info needed to answer), even though they talk about other things.
+
+Rule of thumb: The speaker must explicitly state they LACK knowledge, not just be vague or redirect. But explaining *why* they lack knowledge + discussing attitude does NOT change the label if the core question remains unanswered.

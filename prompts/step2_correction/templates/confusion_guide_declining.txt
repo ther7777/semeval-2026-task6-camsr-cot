@@ -1,0 +1,26 @@
+### Confusion Guidelines: Declining to answer ###
+
+"Declining to answer" requires an EXPLICIT refusal or deferral. Watch out for these common confusions:
+
+**Declining vs Dodging**:
+- Declining: "I won't comment on that" / "No comment" / "I'm not going to tell you" (EXPLICIT refusal)
+- Dodging: Answering a completely different question without refusing (NO explicit refusal words)
+
+**Declining vs Deflection**:
+- Declining: "I'll let the report speak for itself" / "Wait for the announcement" (EXPLICIT deferral)
+- Deflection: "That's a great question, but what's really important is..." (Pivot without refusing)
+
+**Declining vs General**:
+- Declining: "I can't discuss ongoing investigations" (EXPLICIT refusal with reason)
+- General: "We're looking into it" / "It's a complex situation" (Vague but not refusing)
+
+Rule of thumb: If there's no explicit refusal phrase, it's probably NOT Declining.
+
+**Deferral of Details (Common Confusion)**:
+- If a speaker says "I'll let [Someone else] discuss the details," but then provides a **general answer** or a **timeframe** himself in the same response, it is **NOT Declining**. It is likely **General** or **Explicit**.
+- Only label as Declining if the *entire* relevant part of the answer is a referral/refusal.
+
+**Special Note: Declining vs. Claims Ignorance (The "Report" boundary)**:
+- **Declining**: "I am waiting for the report before I comment" / "I don't want to prejudge the outcome." -> **Focus is on the decision to WAIT/NOT COMMENT.**
+- **Claims Ignorance**: "I haven't seen the report yet" / "We don't have that information." -> **Focus is on the ABSENCE of knowledge.**
+- Even if both mention a report, look for the 'refusal' vs 'lack of info' priority.

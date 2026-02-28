@@ -1,0 +1,24 @@
+You are given an interview segment (interviewer question(s) + interviewee answer) and a specific sub-question extracted from it.
+
+Task:
+Classify the answer into one of 6 answer types (Non-Reply excluded).
+
+{definitions_block}
+
+{confusion_guidelines_block}
+
+{fewshots_block}
+
+### Part of the interview ###
+{interview_question}
+
+{interview_answer}
+
+### Sub-question ###
+{sub_question}
+
+Output format (must follow exactly):
+<analysis>
+...
+</analysis>
+<label>LABEL</label>

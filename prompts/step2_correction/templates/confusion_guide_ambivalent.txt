@@ -1,0 +1,22 @@
+### Confusion Guidelines: Ambivalent Cases (Explicit vs The Rest) ###
+
+The biggest challenge is distinguishing **Explicit** from **Deflection** or **Partial**.
+
+**1. Explicit vs Deflection (The "Long Answer" Trap)**
+- **Rule**: Length does NOT equal Deflection. Even if the answer is long and contains "spin", "context", or "attacks", IF it contains the direct core answer (Yes/No/Name/Date), it is **Explicit**.
+- **Explicit**: "It is a complicated issue [context]... but **Yes**, I support it." (Contains the core answer).
+- **Deflection**: "It is a complicated issue [context]... and what matters is that we discuss it." (Never gives the core answer, pivots to 'discussion').
+
+**2. Explicit vs Partial**
+- **Explicit**: Answers the core question completely.
+- **Partial**: Answers only ONE PART of a multi-part question (e.g., asked "Who and When", only answers "Who").
+- **Tip**: If the question asks for a Yes/No opinion and the speaker gives a clear opinion, it is **Explicit**, even if they don't elaborate on every detail of "Why".
+
+**3. Explicit vs General**
+- **Explicit**: Provides specific details required (Names, numbers, definitive Yes/No) OR addresses the specific subject matter directly.
+- **General**: Provides high-level principles or vague statements ("We are working on it", "It is important") without addressing the specific case.
+- **Criterion**: If the answer addresses the *specific* topic/event/bill in the question (not just the broad topic), treat it as **Explicit** (or Implicit). Use **General** only when the speaker retreats to abstract principles.
+
+**4. Explicit vs Implicit**
+- **Explicit**: Uses the expected form ("Yes", "No", "I think so", "Absolutely not").
+- **Implicit**: Requires inference. "He is the same person" (for "Has he changed?" -> No).

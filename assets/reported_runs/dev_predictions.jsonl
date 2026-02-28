@@ -1,0 +1,308 @@
+{"id": 0, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 1, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 2, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 3, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 4, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 5, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 6, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 7, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 8, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 9, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 10, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 11, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 12, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 13, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 14, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 15, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 16, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 17, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 18, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 19, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 20, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 21, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 22, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 23, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 24, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 25, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 26, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 27, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 28, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 29, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 30, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 31, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 32, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 33, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 34, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 35, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 36, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 37, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 38, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 39, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 40, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 41, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 42, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 43, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 44, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 45, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 46, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 47, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 48, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 49, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 50, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 51, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 52, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 53, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 54, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 55, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 56, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 57, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 58, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 59, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 60, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 61, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 62, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 63, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 64, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 65, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 66, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 67, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 68, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 69, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 70, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 71, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 72, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Clarification"}
+{"id": 73, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 74, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 75, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 76, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 77, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 78, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 79, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 80, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 81, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 82, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 83, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 84, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 85, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 86, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 87, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 88, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 89, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 90, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 91, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 92, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 93, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 94, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 95, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 96, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 97, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 98, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 99, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 100, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 101, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 102, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 103, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 104, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 105, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 106, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 107, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 108, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 109, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 110, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 111, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 112, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 113, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 114, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 115, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 116, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 117, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 118, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 119, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 120, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 121, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 122, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 123, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 124, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 125, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 126, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 127, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 128, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 129, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 130, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 131, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 132, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 133, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 134, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 135, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 136, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 137, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 138, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 139, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 140, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 141, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 142, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 143, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 144, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 145, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 146, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 147, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 148, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 149, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 150, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 151, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 152, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 153, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 154, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 155, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 156, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 157, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 158, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 159, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 160, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 161, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 162, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 163, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 164, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 165, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 166, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 167, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 168, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 169, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 170, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 171, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 172, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 173, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 174, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 175, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 176, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 177, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 178, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 179, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 180, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 181, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 182, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 183, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 184, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 185, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 186, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 187, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 188, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 189, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 190, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 191, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 192, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 193, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 194, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 195, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 196, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 197, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 198, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 199, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 200, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 201, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 202, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 203, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 204, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 205, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 206, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 207, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 208, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 209, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 210, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 211, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 212, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 213, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 214, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 215, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 216, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 217, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 218, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 219, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 220, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 221, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 222, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 223, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 224, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 225, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 226, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 227, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 228, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 229, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 230, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 231, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 232, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 233, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 234, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 235, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 236, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 237, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Clarification"}
+{"id": 238, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 239, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 240, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 241, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 242, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 243, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 244, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 245, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 246, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 247, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 248, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 249, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 250, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 251, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 252, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 253, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 254, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 255, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 256, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 257, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 258, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 259, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 260, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 261, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 262, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 263, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 264, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Claims ignorance"}
+{"id": 265, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Declining to answer"}
+{"id": 266, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 267, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 268, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 269, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 270, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 271, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 272, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 273, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 274, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 275, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 276, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 277, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 278, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 279, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 280, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 281, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 282, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 283, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 284, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 285, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Clarification"}
+{"id": 286, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 287, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 288, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 289, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 290, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 291, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 292, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 293, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 294, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 295, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 296, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 297, "task1_prediction": "Ambivalent", "task2_prediction": "Dodging"}
+{"id": 298, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 299, "task1_prediction": "Clear Reply", "task2_prediction": "Explicit"}
+{"id": 300, "task1_prediction": "Clear Non-Reply", "task2_prediction": "Clarification"}
+{"id": 301, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 302, "task1_prediction": "Ambivalent", "task2_prediction": "Partial/half-answer"}
+{"id": 303, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 304, "task1_prediction": "Ambivalent", "task2_prediction": "Deflection"}
+{"id": 305, "task1_prediction": "Ambivalent", "task2_prediction": "General"}
+{"id": 306, "task1_prediction": "Ambivalent", "task2_prediction": "Implicit"}
+{"id": 307, "task1_prediction": "Ambivalent", "task2_prediction": "General"}

@@ -1,0 +1,30 @@
+Output EXACTLY one label from:
+Explicit | Implicit | Partial/half-answer | General | Deflection | Dodging
+
+### Definitions: The Evasion Spectrum (6 Classes) ###
+前置说明：
+- 本阶段已经在 Gate 中剔除了三类 Non-Reply（Declining / Ignorance / Clarification）。这里**只能**在 6 类中选 1 类。
+- 只根据 Sub-question 判断相关性；忽略 interview 里其它问题。
+
+[Direct Hits]
+- Explicit：明确、直接给出 Sub-question 要求的关键信息，且形式符合预期（例如明确 Yes/No、具体数字/姓名/日期）。
+- Partial/half-answer：Sub-question 要求多个独立要素（A AND B / 多实体 / 多属性），回答**明确**覆盖了至少 1 个要素，但对其它要素完全缺失。
+  - 只要有“某个要素被明确回答”，优先 Partial，而不是 General。
+
+[The Evasion Spectrum — From mild to severe]
+- Implicit（轻度回避）：关键信息在回答中存在，但不是按预期形式直说，需要通过逻辑推断才能得到核心答案。
+  - 典型：给出具体事实/状态/数字/态度，使得核心问题被“逻辑上解决”。
+- General（中度回避）：保持在同一议题/主题内，但用原则、流程、条件句或状态更新代替事实结论，缺少 Sub-question 请求的具体信息。
+  - 典型 if/then / procedure / status update：例如 “if needed, we'll… / we're assessing / working on an estimate / later today…”（但不给事实值/结论）。
+- Deflection（重度回避）：看似相关，但把焦点**替换**到另一个“具体点/具体对象/具体争点”，主要在回答别的 question-point，而不是 Sub-question 的核心点。
+  - 关键：必须是“替换成新的具体点”，而不是泛泛而谈（泛泛而谈通常是 General）。
+- Dodging（完全不对题）：从一开始就没有实质性对齐 Sub-question 的核心对象/前提，出现根本性的实体/事件不匹配。
+
+### Decision procedure (apply in order) ###
+1) 先通读全文，检查是否存在直接命中：Explicit。
+2) 若 Sub-question 多要素且只答到一部分：Partial/half-answer。
+3) 若关键信息可由回答中的具体事实/状态推断出来：Implicit。
+4) 若几乎没有主题对齐（核心对象/前提都不对）：Dodging。
+5) 若主题对齐但主要回答“另一个具体点/另一个问句点”：Deflection。
+6) 其余同主题但不够具体（流程/条件/原则/进展）：General。
+
