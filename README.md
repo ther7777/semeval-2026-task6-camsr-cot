@@ -11,6 +11,15 @@ CAMSR-CoT (Confidence-Aware Multi-Stage Reasoning + CoT) is a **confidence-aware
 Task 1 is **not predicted independently**: it is derived from Task 2 via a fixed mapping (to keep consistency between the two tasks).
 
 
+## Data Sources
+
+The JSONL files shipped in `data/` are **pre-processed versions** tailored for this pipeline.  
+Original (raw) datasets are available at:
+
+| Dataset | Link |
+|---------|------|
+| QEvasion (train / dev) | <https://huggingface.co/datasets/ailsntua/QEvasion> |
+| Evaluation dataset | <https://github.com/konstantinosftw/CLARITY-SemEval-2026/blob/main/dataset/clarity_task_evaluation_dataset.csv> |
 
 
 ## Quickstart
@@ -71,10 +80,10 @@ python scripts/eval_competition.py --task task2 --gold data/dev.jsonl --pred_jso
 ```
 
 
-<!-- ## Credits / Contributions
+## Authors
 
-
-https://github.com/sll0107 -->
+- [@ther7777](https://github.com/ther7777)
+- [@sll0107](https://github.com/sll0107)
 
 ## Reference paper (dataset)
 
