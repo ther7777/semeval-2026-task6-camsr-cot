@@ -1,5 +1,7 @@
 # SemEval-2026 Task 6 — CAMSR-CoT
 
+This work is developed at **China Telecom AI Technology Co., Ltd.**
+
 ## Overview
 
 CAMSR-CoT (Confidence-Aware Multi-Stage Reasoning + CoT) is a **confidence-aware 3-stage prompting pipeline**:
